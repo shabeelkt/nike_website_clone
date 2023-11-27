@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+    padding: 10px 0;
+    font-family: 'OPPOSans-Ver2-Regular',Helvetica,Arial,sans-serif,system-ui;
+}  
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+.header-link{
+    list-style: none;
+    display: flex;
+    margin-left: -21px;
+    color: gray;
+    padding: 0;
+}
+.header-link-oppo{
+font-size: 22px;
+color: black;
+margin-right: -6px;
+}
+.header-link-a{
+padding-left: 27px;
+}   
+.header-link-b{
+
+   padding-left: 27px; 
+} 
+.header-link-sec{
+    list-style: none;
+    display: flex;
+
+    color: gray;
+}
+.header-right{
+    margin-right: 144px;
+}
+.button-fst{
+    display: flex;
+    width: 170px;
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+}
+.btn-li{
+    margin-left: 10px;
+}
+.fas{
+    margin-top: 15px;
+}
+.img{
+    width: 100%;
+    height: 570px;
+    object-fit: cover;
+}
+.text-content{
+    color: black;
+    position: absolute;
+    margin-top: 44px;
+    left: 3%;
+}
+.h1{
+    font-size: 40px;
+    line-height: 1.1;
+    margin: 0;
+    margin-right: 90px; 
+     margin-left: 81px
+}
+.h2{
+    margin-top:0;
+    margin-bottom:0;
+     margin-left: 84px;
+     font-family: 'FFDINforPuma'
+}
+.text-main{
+    margin-top: -90px;
+}
+.img-btn {
+    display: flex;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 313px;
+}
+.btn-sec{
+    margin-left: 10px;
+    height: 46px;
+    border-radius: 28px;
+    width: 126px;}
+.btn-one{
+     background-color: black;
+    margin-left: -57px;
+    height: 46px;
+    border-radius: 28px;
+    color: white;
+    width: 126px;
+    }
+    .h1-text{
+        
+    color: white;
+    font-size: 51px;
+    margin-top: 0px;
+}
+    .h2-text-sec{
+        color: white;
+        padding-left: 23px;
+        margin: -27px 10px;
+    }
+    .btn-one-1{
+        color: black;
+        background-color: white;
+         height: 46px;
+        border-radius: 28px;
+        width: 126px;
+    
+    }
+    .text-main-one{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 70px;
+    }
+    .text-content-one{
+        font-size: 26px;
+        margin: 60px 0;
+    }
+    .text-content-two{
+     font-family: cursive;
+     color: gray;
+     margin: 60px 0;
+    }
+    .img-one{
+        width: 100%;
+        margin: -26px 0;
+        padding: 0px 80px;
+    }
+    .text-dec{
+        margin: 10px 70px;
+        position: absolute;
+    }
+    .h3-text-one{
+        color: black;
+        position: relative;
+        font-family: sans-serif;
+        margin-bottom: -64px;
+        font-size: 41px;
+        margin-left: 111px;
+        
+    }
+    .text-dec-one{
+        position: relative;
+
+    }
+    .link-big{
+        padding: 0px 80px;
+    }
+    .img-link{
+        display: flex;
+    }
+    .link-one{
+        background-color: rgb(238, 232, 238);
+        width: 50%;
+        margin-top: 27px;
+         display: flex;
+         justify-content: space-between;
+         height: 400px;
+         margin-left: 2px;
+         flex: 1;
+    }
+    .link-one-first{
+        background-color: rgb(238, 232, 238);
+        width: 50%;
+        margin-top: 4px;
+         display: flex;
+         justify-content: space-between;
+         height: 400px;
+         margin-left: 2px;
+         flex: 1; 
+    }
+    .link-one-sec{
+        background-color: rgb(238, 232, 238);
+        width: 50%;
+        margin-top: 4px;
+         display: flex;
+         justify-content: space-between;
+         height: 400px;
+         margin-left: 2px;
+         flex: 1; 
+    }
+    
+    .link-two{
+        padding-top: 80px;
+        background-color: rgba(203, 201, 204, 0.936);
+        margin-top: 200px;
+        margin-left: 10px;
+        width: 150px;
+        position:relative;
+        overflow: hidden;
+    }
+    .phn-img{
+     transition: ease-in-out 0.1 s;
+     transform: scale(1.1);
+     overflow: hidden;
+
+     
+    }
+    .phn-img-one{
+        height: 370px;
+        transform: scale(1);
+        transition: transform ease-in 0.1 s;
+    
+    }
+
+    .phn-img-one:hover{
+        transform: scale(1.1);
+        transition: transform ease-in 0.1 s; 
+    }
+    
+    .h5-text{
+        position: absolute;
+        top: 20px;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+    
+    .text-link{
+        margin-left: 20px;
+    }
+
+   
+    

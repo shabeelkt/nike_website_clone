@@ -1,0 +1,76 @@
+
+#singular-banner {
+        width: 100%;
+        min-height: 80px;
+        position: fixed;
+        top: 0;
+        display: flex;
+        padding: 10px;
+        background-color: #F8F8F8;
+        border: 1px solid #CCCCCC;
+        overflow: hidden;
+        box-sizing: border-box;
+        z-index: 99999;
+        user-select: none;
+}
+
+#singular-banner.bottom {
+        bottom: 0;
+        top: auto;
+}
+
+#singular-banner .singular-banner-logo {
+        height: 60px;
+        width: 60px;
+        border-radius: 10px;
+        margin-left:20px;
+        border: 1px solid #ddd;
+}
+
+#singular-banner .singular-banner-content {
+        display: flex;
+        flex-direction: column;
+        margin: auto 10px;
+}
+
+#singular-banner .singular-banner-title {
+        font-size: 14px;
+        font-weight: bold;
+    color: #333333;
+    font-family: 'Helvetica Neue';
+}
+
+#singular-banner .singular-banner-subtitle {
+        width: 100%;
+        white-space: pre-line;
+        color: #868686;
+    font-size: 11px;
+    font-family: 'Helvetica Neue';
+}
+
+#singular-banner .singular-banner-download-button {
+        vertical-align: middle;
+        margin-top: auto; 
+        margin-bottom: auto; 
+        margin-left: auto;
+        font-size: 12px;
+        color: #3a92e5;
+        cursor: pointer;
+        padding: 7px 13px;
+        white-space:nowrap;
+        font-family: 'Helvetica Neue';
+        color: #007aff;
+    font-weight: bold;
+    border: 1px solid #eeeeee;
+    background: #eeeeee;
+    border-radius: 50px;
+}
+
+#singular-banner .singular-banner-close-button {
+        width: 10px;
+        height: 80%;
+    position: absolute;
+        top: auto;
+        bottom: auto;
+        right: auto;
+}
